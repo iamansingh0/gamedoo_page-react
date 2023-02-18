@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.mainpage {
+    /* background-color: yellow; */
+    height: 878px;
+    width: 785px;
+    margin-top: 17px;
+}
+
+.marketplace {
+    width: 723px;
+    height: 271px;
+    background-color: #4B0ACE;
+    margin-left: 35px;
+    margin-right: 27px;
+    display: flex;
+    border-radius: 20px;
+    border: 1px solid rgb(79, 67, 67);
+}
+
+.market-data {
+    width: 52%;
+    background-color: #4B0ACE;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 90%;
+    border-radius: 20px;
+    margin-left: 36px;
+}
+
+.market-img {
+    width: 48%;
+    background-color: #4B0ACE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 5px;
+    /* border: 1px solid red; */
+}
+
+.market-btn button {
+    width: 182px;
+    height: 52px;
+    background-color: #FFA910;
+    border-radius: 15px;
+    border: none;
+    color: #21202B;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 29px;
+    font-family: 'Inter', sans-serif;
+    padding-left: 25px;
+    margin-top: 164px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.diamond {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    left: 388px;
+    top: 318px;
+}
+
+.notthin {
+    width: 323px;
+    height: 78px;
+    /* border: 1px solid red; */
+    position: absolute;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 39px;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    top: 190px;
+}
+
+.thin {
+    width: 189.73px;
+    height: 27px;
+    /* border: 1px solid red; */
+    font-size: 14px;
+    line-height: 17px;
+    font-style: normal;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+    color: #ffffff;
+    top: 153px;
+}
+
+.pop {
+    width: 162px;
+    height: 23px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #21202B;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 38px;
+}
+
+.pop img {
+    width: 17px;
+    height: 8.92px;
+}
+
+.popular-games {
+    width: 714px;
+    height: 569px;
+    margin-left: 35px;
+}
+
+.game-container {
+    height: 525px;
+    width: 714px;
+    /* background-color: #4B0ACE; */
+    margin-top: 21px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 4.5px;
+    padding-right: 4.5px;
+    column-gap: 15px;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+    row-gap: 10px;
+}
+
+

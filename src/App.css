@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+.App {
+    display: flex;
+}
+
+.left {
+    background-color: #fff;
+    height: 1024px;
+    width: 298px;
+    border-left: 48px solid black;
+    border-right: 1px solid #F7F7F7;
+}
+
+.right {
+    background-color: #fff;
+    height: 1024px;
+    width: 1238px;
+    border-right: 48px solid black;
+}
