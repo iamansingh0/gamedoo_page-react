@@ -1,4 +1,5 @@
 import Navbar from "./Navbar"
+import './rightmenu.css'
 import Rightmenu from "./Rightmenu"
 import Mainpage from "./Mainpage"
 
