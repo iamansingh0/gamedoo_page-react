@@ -8,8 +8,8 @@ const Rightpage = () => {
         <div className="rightpage">
             <Navbar />
             <div className='backChange'>
-                <Rightmenu />
                 <Mainpage />
+                <Rightmenu />
             </div>
         </div>
     )

@@ -6,16 +6,18 @@
 
 .backChange {
     background-color: #f2f2f2;
+    display: flex;
 }
 
 .rightmenu {
-    position: absolute;
+    /* position: absolute; */
     width: 370px;
     height: 878px;
     right: 83px;
     top: 117px;
     background-color: #301C57;
     border-radius: 20px;
+    margin-top:17px;
 }
 
 .thumbPic {
