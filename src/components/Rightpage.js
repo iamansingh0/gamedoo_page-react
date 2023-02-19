@@ -6,8 +6,10 @@ const Rightpage = () => {
     return (
         <div className="rightpage">
             <Navbar />
-            <Rightmenu />
-            <Mainpage />
+            <div className='backChange'>
+                <Rightmenu />
+                <Mainpage />
+            </div>
         </div>
     )
 }
